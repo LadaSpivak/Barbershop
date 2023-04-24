@@ -775,6 +775,15 @@ body {
     padding-bottom: 120px;
   }
 
+  .barbers-image:hover {
+    transform: rotate(360deg);
+    transition: transform 300ms linear;
+  }
+
+  .barbers-item {
+    overflow: hidden;
+  }
+
   .barbers-list {
     flex-wrap: nowrap;
     gap: 30px;
